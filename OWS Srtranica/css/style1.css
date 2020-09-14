@@ -1,0 +1,74 @@
+
+html,body {
+	font-family: 'Open Sans', sans-serif;
+	background:#FFF;
+	font-size:100%;
+}
+
+.header{
+	background:url(../images/1.jpg) no-repeat 0px 0px;
+	background-size: cover;
+	min-height: 680px;
+	position:relative;
+}
+.header-info{
+	position: absolute;
+	top: 14%;
+	left: 31%;
+	text-align: center;
+}
+.header-info h3{
+	color: #FFF;
+	margin: 1em 0 .5em 0;
+}
+.header-info h1{
+	font-size: 66px;
+	font-weight: 700;
+	color: #FFF;
+	margin: 1em 0 .5em 0;
+	text-transform: uppercase;
+}
+.header-info p{
+	font-size: 16px;
+	color: #FFF;
+	width: 75%;
+	margin: 0 auto;
+	line-height: 2em;
+}
+.d-arrow a{
+	position: absolute;
+	background:url(../images/d-arrow.png) no-repeat 0px 0px;
+	width:45px;
+	height:45px;
+	display:block;
+	top: 90%;
+	left: 48%;
+}
+.d-arrow a:hover{
+	background:url(../images/d-arrowhr.png) no-repeat 0px 0px;
+	transition: 0.5s;
+	-webkit-transition: 0.5s;
+	-moz-transition: 0.5s;
+	-o-transition: 0.5s;
+	-ms-transition: 0.5s;
+}
+
+.header-bottom{
+	background:url(../images/bg.jpg) no-repeat 0px 0px;
+	background-size: cover;
+	min-height: 680px;
+	padding: 2em 0 6em 0;
+}
+
+.header-bottom h3{
+	color: #FFF;
+	margin: 1em auto;
+	text-align: center;
+	font-weight: 700;
+	font-size: 65px
+}
+.contacts{
+	color: #FFF;
+	margin: 1em auto;
+	text-align: left;	
+}

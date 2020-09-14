@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>OWS Projekt</title>
+		<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+		<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all">
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,300,700,800,400,600' rel='stylesheet' type='text/css'>
+		<script src="js/jquery.min.js"></script>
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+		<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+		<script type="text/javascript" src="js/move-top.js"></script>
+		<script type="text/javascript" src="js/easing.js"></script>
+		<script type="text/javascript">
+			$(function() {
+				$('a[href*=#]').on('click', function(e) {
+					e.preventDefault();
+					$('html, body').animate({ scrollTop: $($(this).attr('href')).offset().top}, 500, 'linear');
+				});
+			});
+		</script>
+	</head>
+	<body>
+		<div class="header">
+			<div class="header-info">
+			<a href="kontakti.html"><h3>Contacts</h3></a>
+				<a href="#"><img src="images/tft.png" alt="" /></a>
+				<h1>Teamfight Tactics</h1>
+				<p>Lets dive into the world of Teamfight Tactics</p>
+			</div>
+			<div class="d-arrow">
+				<a href="#comps"></a>
+			</div>
+		</div>
+		<div class="header-bottom">
+			<div class="container wrap">
+				<p>Teamfight Tactics (TFT) is an auto battler game developed and published by Riot Games. 
+				The game uses character assets from League of Legends and is based on Dota Auto Chess, where players compete online against seven other opponents by building a team to be the last one standing. 
+				The game released as a League of Legends game mode for Microsoft Windows and macOS in June 2019 and as a standalone game for Android and iOS in March 2020, featuring cross-platform play between them.
+				</p> 
+				<p>
+				The game centers around eight players who construct teams to fight one another and be the last player standing.
+				The battlefield consists of hexagons, where players can strategically place units on the hexagons on their side of the game board between rounds. Each round, a short battle automatically commences, with two players matched randomly for that round, or else paired against computer-controlled enemies. 
+				In the rounds against computer-controlled enemies, each enemy has a chance to drop gold, units, or items that the player can use. Health lost from round losses is calculated with a combination of set damage per round, and how many units an opponent had still alive
+				</p>
+				<h3></h3>
+				<div class="col-md-4 opcenito">
+					<h4>Little Legends</h4>
+					<p>Little Legends are the avatars of the player in the Teamfight Tactics icon Teamfight Tactics game mode.</p>
+				</div>
+				<div class="col-md-4 opcenito">
+					<h4>Arena.</h4>
+					<p>The Arena is the island that encompasses the battlefield of Teamfight Tactics icon Teamfight Tactics, which includes the battlefield for champions to fight, the champion bench, and the Gold Generators.</p>
+				</div>
+				<div class="col-md-4 opcenito">
+					<h4>Champions.</h4>
+					<p>Champions are units in the Teamfight Tactics game mode that fight in arenas to protect the Little Legend.</p>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+		<div class="comps">
+			<div class="container">
+				<h3>Team Comps</h3>	
+				<ul id="filters" class="clearfix wow bounceIn" data-wow-delay="0.4s">
+					<li><span class="filter active" data-filter="app card icon logo web">All Team Comps</span></li>
+					<li><span class="filter" data-filter="app">Tier S</span></li>
+					<li><span class="filter" data-filter="card">Tier A</span></li>
+					<li><span class="filter" data-filter="icon">Tier B</span></li>
+					<li><span class="filter" data-filter="logo">Tier C</span></li>
+				</ul>
+				<div id="portfoliolist">
+					<div class="portfolio app mix_all" data-cat="app" style="display: inline-block; opacity: 1;">
+						<div class="portfolio-wrapper">		
+							<a href="#" class="b-link-stripe b-animate-go">
+						     <img src="images/2.jpg" />
+							 <div class="b-wrapper">
+							 <p class="b-animate b-from-left    b-delay03 ">3-star units at level 7 by rolling your exces gold every round.</p>
+						  	</div></a>
+							<div class="comps-text"><h4>Star Guardian Sorcereres</h4><p>Slow Roll</p></div>
+		                </div>
+					</div>				
+					<div class="portfolio logo mix_all" data-cat="logo" style="display: inline-block; opacity: 1;">
+						<div class="portfolio-wrapper">		
+							<a href="#" class="b-link-stripe b-animate-go">
+						     <img src="images/3.jpg" /><div class="b-wrapper">
+							 <p class="b-animate b-from-left    b-delay03 ">Level 8 by round 4-3 to grab 4/5-cost units before everyone else.</p>
+						  	</div></a>
+							<div class="comps-text"><h4>Space Pirate Rebels</h4><p>Fast 8</p></div>
+		                </div>
+					</div>		
+					<div class="portfolio card mix_all" data-cat="card" style="display: inline-block; opacity: 1;">
+						<div class="portfolio-wrapper">		
+							<a href="#" class="b-link-stripe b-animate-go">
+						     <img src="images/4.jpg" /><div class="b-wrapper">
+							 <p class="b-animate b-from-left b-delay03" id="para">Level 8 by round 4-3 to grab 4/5-cost units before everyone else.</p>
+						  	</div></a>
+							<div class="comps-text"><h4>Astro Snipers</h4><p>Fast 8</p></div>
+		                </div>
+					</div>				
+					<div class="portfolio card mix_all" data-cat="card" style="display: inline-block; opacity: 1;">
+						<div class="portfolio-wrapper">		
+							<a href="#" class="b-link-stripe b-animate-go">
+						     <img src="images/8.jpg" /><div class="b-wrapper">
+							 <p class="b-animate b-from-left    b-delay03 ">Flexible strategy focused around a healthy economy while still keeping up in levels.</p>
+						  	</div></a>
+							<div class="comps-text"><h4>Battlecast</h4><p>Standard</p></div>
+		                </div>
+					</div>	
+					<div class="portfolio icon mix_all" data-cat="icon" style="display: inline-block; opacity: 1;">
+						<div class="portfolio-wrapper">		
+							<a href="#" class="b-link-stripe b-animate-go">
+						     <img src="images/7.jpg" /><div class="b-wrapper">
+							 <p class="b-animate b-from-left    b-delay03 ">Level 8 by round 4-3 to grab 4/5-cost units before everyone else.</p>
+						  	</div></a>
+							<div class="comps-text"><h4>Brawler Blasters</h4><p>Fast 8</p></div>
+		                </div>
+					</div>			
+					<div class="portfolio icon mix_all" data-cat="icon" style="display: inline-block; opacity: 1;">
+						<div class="portfolio-wrapper">		
+							<a href="#" class="b-link-stripe b-animate-go">
+						     <img src="images/9.jpg" /><div class="b-wrapper">
+							 <p class="b-animate b-from-left    b-delay03 ">3-star units at level 6 by rolling your exces gold every round.</p>
+						  	</div></a>
+							<div class="comps-text"><h4>Mech Rebels</h4><p>Slow Roll</p></div>
+		                </div>
+					</div>
+					<div class="clearfix"> </div>	
+				</div>
+	</script>
+	
+				<script type="text/javascript" src="js/jquery.mixitup.min.js"></script>
+					<script type="text/javascript">
+					$(function () {
+						
+						var filterList = {
+						
+							init: function () {
+							
+								$('#portfoliolist').mixitup({
+									targetSelector: '.portfolio',
+									filterSelector: '.filter',
+									effects: ['fade'],
+									easing: 'snap',
+									onMixEnd: filterList.hoverEffect()
+								});				
+							
+							},
+							
+							hoverEffect: function () {
+							
+								$('#portfoliolist .portfolio').hover(
+									function () {
+										$(this).find('.label').stop().animate({bottom: 0}, 200, 'easeOutQuad');
+										$(this).find('img').stop().animate({top: -30}, 500, 'easeOutQuad');				
+									},
+									function () {
+										$(this).find('.label').stop().animate({bottom: -40}, 200, 'easeInQuad');
+										$(this).find('img').stop().animate({top: 0}, 300, 'easeOutQuad');								
+									}		
+								);				
+							
+							}
+				
+						};
+						
+						filterList.init();
+						
+						
+					});	
+					</script>
+					<script type="text/javascript" src="js/modernizr.custom.min.js"></script>    
+					<link href="css/popuo-box.css" rel="stylesheet" type="text/css" media="all" />
+					<script src="js/jquery.magnific-popup.js" type="text/javascript"></script>
+					<div id="small-dialog" class="mfp-hide">
+						<div class="image-top">
+							<img src="images/2.jpg" alt="" />
+							<p>Syndra pulls in all orbs on the battlefield and creates 3 new ones, then fires them all at the enemy with the highest health, dealing magic damage per orb.</p>
+						</div>
+					</div>
+					<div id="small-dialog2" class="mfp-hide">
+						<div class="image-top">
+							<img src="images/3.jpg" alt="" />
+							<p>Gangplank calls down a large orbital strike around his target, dealing magic damage to all enemies in that area for 2 seconds.</p>
+						</div>
+					</div>
+					<div id="small-dialog3" class="mfp-hide">
+						<div class="image-top">
+							<img src="images/4.jpg" alt="" />
+							<p>Nautilus erupts the ground beneath his target, knocking them up and stunning them, and dealing magic damage. Enemies adjacent to the target receive half of this effect.</p>
+						</div>
+					</div>
+					<div id="small-dialog4" class="mfp-hide">
+						<div class="image-top">
+							<img src="images/8.jpg" alt="" />
+							<p>Illaoi slams a tentacle in a line in front of her, dealing damage and stealing Armor and Magic Resist from each target hit for 6 seconds.</p>
+						</div>
+					</div>
+					<div id="small-dialog5" class="mfp-hide">
+						<div class="image-top">
+							<img src="images/7.jpg" alt="" />
+							<p>Jinx gets excited as she helps take down enemies. After her first takedown, Jinx gains bonus attack speed. After her second takedown, Jinx swaps to her rocket launcher, causing her Basic Attacks to deal bonus magic damage to all enemies in a small area around her target.</p>
+						</div>
+					</div>
+					<div id="small-dialog6" class="mfp-hide">
+						<div class="image-top">
+							<img src="images/9.jpg" alt="" />
+							<p>Rumble torches his enemies, dealing magic damage in a cone over 3 seconds, and reducing healing on them by 50% for 5 seconds.</p>
+						</div>
+					</div>
+			</div>
+			<script>
+						$(document).ready(function() {
+						$('.popup-with-zoom-anim').magnificPopup({
+							type: 'inline',
+							fixedContentPos: false,
+							fixedBgPos: true,
+							overflowY: 'auto',
+							closeBtnInside: true,
+							preloader: false,
+							midClick: true,
+							removalDelay: 300,
+							mainClass: 'my-mfp-zoom-in'
+						});
+																						
+						});
+				</script>	
+			</div>
+		</div>
+		<div class="champs">
+			<div class="container">
+				<h3>Best Champions</h3>
+				<p>Best Champions from Team compositions</p>
+				<div class="champs-images">	
+					<a href="#small-dialog" class="b-link-stripe b-animate-go  thickbox play-icon popup-with-zoom-anim">
+						<img src="images/2.jpg" />
+						<div class="caption">
+							<span> </span>
+						</div>
+					</a>
+				</div>
+				<div class="champs-images">
+					<a href="#small-dialog2" class="b-link-stripe b-animate-go  thickbox play-icon popup-with-zoom-anim">
+						<img src="images/3.jpg" />
+						<div class="caption">
+							<span> </span>
+						</div>
+					</a>
+				</div>
+				<div class="champs-images">
+					<a href="#small-dialog3" class="b-link-stripe b-animate-go  thickbox play-icon popup-with-zoom-anim">
+						<img src="images/4.jpg" />
+						<div class="caption">
+							<span> </span>
+						</div>
+					</a>
+				</div>
+				<div class="champs-images">
+					<a href="#small-dialog4" class="b-link-stripe b-animate-go  thickbox play-icon popup-with-zoom-anim">
+						<img src="images/8.jpg" />
+						<div class="caption">
+							<span> </span>
+						</div>
+					</a>
+				</div>
+				<div class="champs-images">
+					<a href="#small-dialog5" class="b-link-stripe b-animate-go  thickbox play-icon popup-with-zoom-anim">
+						<img src="images/7.jpg" />
+						<div class="caption">
+							<span> </span>
+						</div>
+					</a>
+				</div>
+				<div class="champs-images">
+					<a href="#small-dialog6" class="b-link-stripe b-animate-go  thickbox play-icon popup-with-zoom-anim">
+						<img src="images/9.jpg" />
+						<div class="caption">
+							<span> </span>
+						</div>
+					</a>
+				</div>
+			</div>
+		</div>
+		<div id="kraj" class="kraj">
+			<div class="kraj-bg">
+				<div class="kraj-lg">
+					<img src="images/tft.png" alt="" />
+				</div>
+			</div>
+		</div>
+		<script type="text/javascript">
+									$(document).ready(function() {
+										$().UItoTop({ easingType: 'easeOutQuart' });
+										
+									});
+								</script>
+									<a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+
+	</body>
+</html>
